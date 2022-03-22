@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class TuitStats extends React.Component {
+export class TuitStats extends React.Component {
   constructor(props) {
     super(props);
   }

@@ -1,8 +1,8 @@
 import React from "react";
-import Tuits from "../tuits";
+import {Tuits} from "../tuits";
 import * as service from "../../services/tuits-service";
 import {useEffect, useState} from "react";
-import {Link, useLocation, useParams} from "react-router-dom";
+import {useLocation, useParams} from "react-router-dom";
 import WhatsHappening from "../whats-happening";
 
 const Home = () => {
